@@ -1,0 +1,233 @@
+@media screen and (min-width: 1399px) 
+{
+    *{
+        max-width: 1399px;
+    }
+
+
+    .deco-images img{   
+        width: 350px;
+    }
+
+    body{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+}
+
+
+@media screen and (max-width: 1399px) 
+{
+    
+}
+
+@media screen and (max-width: 1199px) 
+{
+    .location-header{
+        display: none;
+    }
+    .header-categories{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) 
+{
+    .hero-section{
+        margin-top: 13%;
+    }
+
+    .categories-section img{
+        width: 100px;
+    }
+
+    :root{
+        --category-card-width: 20vw;
+    }
+
+
+
+    .categories{
+        width: 45%;
+    }
+
+    .categories2{
+        width: 45%;
+    }
+
+    .customerservice{
+        width: 45%;
+    }
+
+    .customerservice2{
+        width: 45%;
+    }
+
+    .banner-images{
+        overflow: scroll;
+        gap: 20px;    
+    }
+
+    .banner-images img{
+        width: 45vw;
+        border-radius: 10px;
+
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+
+    /* footer  */
+
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #e1ded9;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        padding: 5px;
+
+        
+    }
+
+    .mobile-footer-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+        color: #000000;
+        opacity: 0.64;
+
+    }
+
+    .icon-1{
+        position: fixed;
+        bottom: 90px;
+        right: 2px;
+    }
+
+    .icon-2{
+        position: fixed;
+        bottom: 60px;
+        right: 2px;
+    }
+
+    .company-logo{
+        display: none;
+    }
+    .cart-button{
+        display: none;
+    }
+
+    .search-area{
+        width: 90%;
+    }
+
+    .hero-section{
+        margin-top: 18%;
+    }
+
+    .categories-section img{
+        width: 60px;
+        padding: 5px;
+    margin: 5px;
+    }
+
+    .categorie-card p{
+        width: 50px;
+        font-size: 0.6rem;
+        text-align: center;
+        overflow: block ;
+    }
+
+    :root{
+        --category-card-width: 28vw;
+    }
+
+    .about-section{
+        flex-direction: column;
+    }
+
+    .about-section-logo img{
+        width: 40vw;
+    }
+    
+    .about-section-text{
+        width: 90vw;
+    }
+
+    .categories{
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+    .categories2{
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+    .customerservice{
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+    .customerservice2{
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+    .customerservice p{
+        font-size: 0.7rem;
+    }
+
+    .red-badge{
+        font-size: 0.55rem;
+    }
+
+    .blue-badge{
+        font-size: 0.55rem;
+    }
+
+    .banner-images{
+        overflow: scroll;
+        gap: 20px;
+    }
+
+    .banner-images img{
+        width: 80vw;
+        border-radius: 10px;
+    }
+
+    .item-name{
+        font-size: 0.8rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 400px) {
+    .red-badge{
+        font-size: 0.55rem;
+    }
+
+    .blue-badge{
+        font-size: 0.55rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .red-badge{
+        font-size: 0.5rem;
+    }
+
+    .blue-badge{
+        font-size: 0.5rem;
+    }
+}
