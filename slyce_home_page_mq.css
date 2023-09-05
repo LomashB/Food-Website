@@ -1,4 +1,4 @@
-@media screen and (min-width: 1399px) 
+/* @media screen and (min-width: 1399px) 
 {
     *{
         max-width: 1399px;
@@ -14,7 +14,7 @@
         justify-content: center !important;
     }
 
-}
+} */
 
 
 @media screen and (max-width: 1399px) 
@@ -108,7 +108,7 @@
 
     .icon-1{
         position: fixed;
-        bottom: 110px;
+        bottom: 110 px;
         right: 2px;
     }
 
